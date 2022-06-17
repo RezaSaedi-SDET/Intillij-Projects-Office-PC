@@ -3,7 +3,7 @@ package DayilyAndReplitPractice;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class ReplitPracticeJune13 {
+class ReplitPracticeJune16 {
 
 
 
