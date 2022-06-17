@@ -1,14 +1,7 @@
 package DayilyAndReplitPractice;
 
-import java.util.Locale;
-import java.util.Scanner;
-
-class ReplitPracticeJune16 {
-
-
-
+public class ReplitHwJune16 {
     public static void main(String[] args) {
-
         /*
         There is a code that takes input as a String.
 
@@ -218,7 +211,7 @@ class ReplitPracticeJune16 {
 //        System.out.println(reversword);
 
 
-        
+
 
 
         /*
@@ -387,8 +380,5 @@ class ReplitPracticeJune16 {
 //        String name =new String("Timmy");
 //        System.out.println(name.length());
 
-
     }
-
-
 }
