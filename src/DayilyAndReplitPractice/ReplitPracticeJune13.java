@@ -7,8 +7,252 @@ public class ReplitPracticeJune13 {
 
 
 
-
     public static void main(String[] args) {
+
+        /*
+        There is a code that takes input as a String.
+
+        Write a program that will print out only vowels of that string
+
+        Sample input/outputs:
+
+        In: howdyho
+        oo
+        In: huehuehuehue
+        ueueueue
+        In: poopoo what idk what im doing
+        ooooaiaioi
+         */
+
+//        Scanner inp = new Scanner(System.in);
+//        System.out.print("In:");
+//        String word = inp.nextLine();
+//        for (int i=0;i<word.length();i++){
+//            if (word.charAt(i)=='a' || word.charAt(i)=='A'|| word.charAt(i) == 'e' || word.charAt(i) == 'E' || word.charAt(i) == 'O'
+//            ||word.charAt(i) == 'o' || word.charAt(i) == 'u' || word.charAt(i) == 'U'){
+//                System.out.print(word.charAt(i));
+//
+//            }else {
+//                System.out.println("");
+//            }
+//        };
+
+
+//        Scanner input=new Scanner(System.in);
+//        String [] array= new String[5];
+//        array[0]=input.nextLine();
+//        array[1]=input.nextLine();
+//        array[2]=input.nextLine();
+//        array[3]=input.nextLine();
+//        array[4]=input.nextLine();
+//
+//        for (int i=0;i<array.length;i++){
+//            System.out.println(array[i].substring(0,3));
+//        };
+
+
+
+        /*
+        For you to do:
+
+        Create an array of names that will hold 5 String elements.
+
+        Names must be taking from a user.
+
+        Print out the first three characters of each element of the array, one per line.
+
+        Note: every array element must be at least 3 characters long.
+
+        Input Example:
+
+        John
+
+        Jane
+
+        Jimmy
+
+        Mike
+
+        Emily
+
+        Expected Output:
+        Joh
+
+        Jan
+
+        Jim
+
+        Mik
+
+        Emi
+         */
+
+
+
+
+        /*
+        Given the following inputs:
+
+        String s;
+        Write a for loop that will print out each letter of the string s, separated by spaces, on the same line.
+
+        Sample input/outputs:
+
+        In: hello
+        h e l l o
+        In: covert
+        c o v e r t
+        In: blasphemy
+        b l a s p h e m y
+         */
+//        Scanner inp = new Scanner(System.in);
+//        System.out.print("In:");
+//        String s = inp.nextLine();
+//        for (int i=0;i<s.length();i++){
+//            System.out.print(s.charAt(i)+" ");
+//        };
+
+
+
+
+        /*
+        Inputs:
+
+        String word;
+
+        Copied!
+        Write a for loop that will loop through every character of a word and print out each character, each on a separate line
+
+        Sample inputs/outputs:
+
+        In: hello
+        h
+        e
+        l
+        l
+        o
+        In: zimbabwe
+        z
+        i
+        m
+        b
+        a
+        b
+        w
+        e
+        In: wow!
+        w
+        o
+        w
+        !
+         */
+
+//        Scanner inp = new Scanner(System.in);
+//        System.out.print("In:");
+//        String word = inp.nextLine();
+//        for (int i=0;i<word.length();i++){
+//            System.out.println(word.charAt(i));
+//        };
+
+
+        /*
+        Inputs:
+
+        String word;
+
+        Copied!
+        Write a for loop that will print out every other letter in a String, starting with the first letter. These letters should be printed all on one line with no space in between.
+
+        Sample input/outputs
+
+        In: hello
+        hlo
+        In: SSyynnttaaxxTTeecchhnnoollooggiieess
+        SyntaxTechnologies
+         */
+//        Scanner inp = new Scanner(System.in);
+//        System.out.print("In:");
+//        String word = inp.nextLine();
+//        for(int i=0;i<word.length();i++){
+//            if(i%2!=0){
+//                System.out.print("");
+//            }else {
+//                System.out.print(word.charAt(i));
+//            }
+//        };
+
+
+
+
+
+
+
+
+
+
+        /*
+        Given the following inputs:
+
+        String s;
+        Write a for loop that will print out the reverse of the string.
+
+        Sample input/outputs:
+
+        In: manhattan
+        nattahnam
+        In: processor
+        rossecorp
+        In: racecar
+        racecar
+         */
+
+//        Scanner inp = new Scanner(System.in);
+//        System.out.print("In:");
+//        String s = inp.nextLine();
+//        String reversword="";
+//
+//        for (int i=(s.length()-1);i>=0;i--){
+//            reversword=reversword+s.charAt(i);
+//        };
+//
+//        System.out.println(reversword);
+
+
+        
+
+
+        /*
+        Write code that will take in a String input and check to see if it is a palindrome or not.
+
+        A palindrome means that the characters are the same forwards and backwards, ignoring spaces.
+
+        Examples of palindromes:
+
+        racecar
+        was it a car or a cat I saw
+        never odd or even
+        rats live on no evil star
+        Your check should be case insensitive too. For example, "Bob" is a palindrome, despite the first B being capitalized.
+
+        Your program will print out "true" if it's a palindrome and "false" if not.
+         */
+//        Scanner inp = new Scanner(System.in);
+//        System.out.print("In:");
+//        String givenString = inp.nextLine();
+//        String reverseWord="";
+//        int givenStringLength=givenString.length();
+//        for (int i=(givenStringLength-1); i>=0;--i){
+//            reverseWord=reverseWord+givenString.charAt(i);
+//        };
+//
+//        if (givenString.toLowerCase().equals(reverseWord.toLowerCase())){
+//            System.out.println("true");
+//        }else {
+//            System.out.println("false");
+//        }
+
+
+
 
         //For you to do:
         //
@@ -31,9 +275,9 @@ public class ReplitPracticeJune13 {
         //       "Doesn't match any programming language"
         //
 
-        Scanner input=new Scanner(System.in);
-        System.out.println("Enter any programming language");
-        String language=input.nextLine();
+//        Scanner input=new Scanner(System.in);
+//        System.out.println("Enter any programming language");
+//        String language=input.nextLine();
 
 //        if(language.equalsIgnoreCase("java")){
 //            System.out.println(language+" is a programming language.");
@@ -145,4 +389,6 @@ public class ReplitPracticeJune13 {
 
 
     }
+
+
 }
