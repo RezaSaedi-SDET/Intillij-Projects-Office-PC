@@ -1,0 +1,3 @@
+http://java.meritcampus.com/core-java-questions/Calculate-sum-of-2d-array
+https://blue-boy.tistory.com/15
+https://codingface.com/java-program-to-print-vowels-in-a-string/
