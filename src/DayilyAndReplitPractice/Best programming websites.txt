@@ -1,3 +1,9 @@
 http://java.meritcampus.com/core-java-questions/Calculate-sum-of-2d-array
 https://blue-boy.tistory.com/15
 https://codingface.com/java-program-to-print-vowels-in-a-string/
+
+job hiring websites:
+
+https://www.crossover.com/jobs
+https://www.turing.com/remote-developer-jobs
+https://exceptionly.com/

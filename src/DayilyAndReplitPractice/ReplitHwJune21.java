@@ -2,7 +2,31 @@ package DayilyAndReplitPractice;
 
 public class ReplitHwJune21 {
 
+    /*
+    Create a method in which you will be printing numbers from 1 to 10
 
+    Call the method in the main method
+
+    Expected Output:
+
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+    10
+     */
+
+    int num(){
+        for (int i=0;i<=10;i++){
+            System.out.println(i);
+        }
+        return num();
+    }
 
     /*
     Create one method as syntaxTechnologies and write the logic for that method in println statement as "Welcome to Syntax Technologies!"
@@ -82,6 +106,9 @@ public class ReplitHwJune21 {
 
 
     public static void main(String[] args) {
+
+        ReplitHwJune21 obj=new ReplitHwJune21();
+        int result=obj.num();
 
 
 //        ReplitHwJune21 obj=new ReplitHwJune21();
