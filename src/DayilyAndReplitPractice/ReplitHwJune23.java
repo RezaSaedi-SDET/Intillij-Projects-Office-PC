@@ -3,40 +3,103 @@ package DayilyAndReplitPractice;
 public class ReplitHwJune23 {
 
     /*
-    Write a method header with the following specs:
+    For you to do:
 
-    Returns:
+    Complete the mystery method so that it takes in an integer array as a parameter, and then modifies each element based on whether it's even or odd.
 
-    a String
-    Name:
+    If the number is even, divide it by 2. If it's odd, multiply it by 10.
 
-    censorLetter
-    Parameters:
+    Expected Output:
 
-    a String
-    a char
-
-    Copied!
-    Then complete the method by programming the following behavior
-
-    Replace all instances of given character with a "*" within the given String.
-    See below examples.
-    Examples:
-
-    censorLetter("computer science",'e') ==> "comput*r sci*nc*"
-    censorLetter("trick or treat",'t') ==> "*rick or *rea*"
+    10 1 30 2 50
      */
 
-    void censorLetter (String x, char y){
+//    public static void main(String[] args) {
+//        int[] a = {1,2,3,4,5};
+//        mystery(a);
+//        // should print out 10 1 30 2 50
+//        for (int i=0;i<a.length;i++){
+//            if (a[i]%2==0){
+//                System.out.print(a[i]/2+" ");
+//            }else {
+//                System.out.print(a[i]*10+" ");
+//            }
+//        }
+//    }
+//
+//    static void mystery(int[] array)	{
+//
+//
+//    }
 
-    }
+    /*
+    Declare two static variables to hold
 
-    public static void main(String[] args) {
-        ReplitHwJune23 obj=new ReplitHwJune23();
+    country name
+    continent
+    Create a method to display the value of static variables in the following format:
 
+    ____ located on ____ continent
 
+    In the main method assign values to a static variable and execute method display
 
-    }
+    Expected Output:
+
+    Morocco located on Africa continent
+     */
+
+//    static String countryName;
+//    static String continent;
+//
+//    void displayInfo(){
+//        System.out.println(countryName+" located on "+continent+" continent");
+//    }
+//
+//    public static void main(String[] args) {
+//        countryName="Morocco";
+//        continent="Africa";
+//
+//        ReplitHwJune23 obj=new ReplitHwJune23();
+//        obj.displayInfo();
+//    }
+
+    /*
+    Create a static method with the following specification
+
+    Return Type: String
+
+    Method Name: mixString
+
+    Parameters:
+
+    a String called s1
+    a String called s2
+    Then inside method write logic that will return the strings combined, one letter at a time, starting with s1. See example below for an example.
+
+    NOTE: s1 and s2 should be of equal lengths:
+
+    s1 ==> "12345"
+    s2 ==> "abcde"
+    mixString(s1,s2) ==> "1a2b3c4d5e"
+     */
+//    static String mixString(String s1, String s2){
+//        StringBuilder result=new StringBuilder();
+//        for (int i=0;i<s1.length() || i<s2.length();i++){
+//            if (i < s1.length())
+//                result.append(s1.charAt(i));
+//            if (i < s2.length())
+//                result.append(s2.charAt(i));
+//
+//        }
+//        return result.toString();
+//    }
+//
+//    public static void main(String[] args) {
+//        String s1="12345";
+//        String s2="abcde";
+//        ReplitHwJune23 obj=new ReplitHwJune23();
+//        System.out.println(obj.mixString(s1,s2));
+//    }
 
 
     /*
